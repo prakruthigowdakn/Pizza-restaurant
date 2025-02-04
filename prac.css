@@ -1,0 +1,787 @@
+
+.imgs{
+  width: 50px;
+  height: 45px;
+}
+.topnav{
+  display: flex;
+  background-color: black;
+  gap: 100px;
+}
+.pizz{
+  font-size: 18px;
+  font-weight: 700px;
+  color: white;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  }
+.othermenu{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.img_menubar{
+  display: none;
+}
+.menu_text{
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  font-size: 25px;
+  line-height: 33px;
+}
+.menu_content{
+  display: flex;
+  gap:32px;
+  align-items: center;
+}
+
+.craving{
+  background-image: url(pizza1\ 1.png);
+  Height:1017px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.craving_head{
+  font-size: 101px;
+  width: 90%;
+  height: 215px;
+  padding-top: 240px;
+  padding-left: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.craving_para{
+  width: 50%;
+  height: 325px;
+  margin-left: 50px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.line{
+  width: 586px;
+  height: 13px;
+  background-color: red;
+  margin-left: 50px;
+  border: none;
+  margin-top: 280px;
+}
+.full{
+  background-color: black;
+  margin: 0;
+ }
+.about{
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+}
+.about_line{
+  width: 526px;
+  height: 10px;
+  background-color:#B62828;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.above_line{
+  width: 50%;
+  height: 4px;
+  margin-left: 100px;
+  background-color: #F24C4C;
+  border: none;
+  margin-top: 100px;
+}
+.about_text{
+  color: #FFFFFF;
+  font-size: 23px;
+  width: 57%;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.dough{
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.about_info{
+  display: flex;
+}
+
+.pizza{
+  text-decoration: none;
+  color: white;
+}
+.me_nu{
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  text-align: center;
+}
+.menu_line{
+  width: 474px;
+  height: 9px;
+  margin-left: 31%;
+  background-color: #B62828;
+  margin-top: 20px;
+  border: none;
+}
+.menu-list1{
+  display: flex;
+}
+.pizza-img{
+  width: 273.08px;
+  height: 200px;
+  gap: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.menu-head{
+  margin-left: 20px;
+  font-size: 25px;
+  color: #F2C94C;
+  font-family: ruda;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.menu-para{
+  color: white;
+  width: 150px;
+  margin-left: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  margin-right: 30px;
+  margin-top:10px;
+}
+
+.menu-list{
+  display: flex;
+  gap: 70px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.carousal{
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 70px;
+  text-align: center;
+}
+.carousal-line{
+  width: 474px;
+  height: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B62828;
+  border: none;
+  margin-top: 10px;
+}
+.carsimg{
+ width: 81%;
+ height: 450px;
+ margin-top: 80px;
+ margin-left: 120px;
+}
+.gal{
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 80px;
+  text-align: center;
+}
+.gallary_line{
+  width: 474px;
+  height: 9px;
+  background-color: #B62828;
+  border: none;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallary{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 10px;
+}
+.gallery-2{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.gallary-img1{
+  width: 100%;
+  height: 410px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.gallary-img2{
+  width: 90%;
+  height: 130px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  margin-left: 10px;
+}
+.gallary-3{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.gallary-img3{
+  width: 90%;
+  height: 199px;
+  border-radius:10px;
+  opacity: 0px;
+  margin-left: 10px;
+}
+.find_us{
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 80px;
+  text-align: center;
+}
+.find_line{
+  width: 499px;
+  height: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #B62828;
+  border: none;
+  margin-top: 10px;
+}
+.Find-location{
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.location-info{
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.map{
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000000
+}
+.location-Adrs{
+  display: flex;
+  gap: 20px;
+}
+.Address{
+  font-size: 13px;
+  font-weight: 700;
+  color:#FFFFFF;
+  margin-top:20px;
+}
+
+.location{
+  width: 71px;
+  height: 67px; 
+}
+.number1{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color:#FFFFFF;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.number2{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color:#FFFFFF;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.phone-number{
+  display: flex;
+  gap: 20px;
+} 
+.phone{
+  width: 55px;
+  height: 53px;
+  margin-top: 20px;
+}
+.footer{
+  display: flex;
+  margin-top: 100px;
+  gap: 500px;
+}
+.group{
+  margin-bottom: 50px;
+}
+.group-img{
+  width: 202.79px;
+  height: 148.96px;
+  margin-left: 70px;
+}
+.last-mail{
+  display: flex;
+  gap: 20px;
+}
+.email{
+  width: 65px;
+  height: 62px;
+}
+.email-id{
+  height: 49px;
+  font-size: 20px;
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+  .last-phone{
+    display: flex;
+    gap: 20px;
+  }
+  .phone1{
+    width: 67px;
+    height: 65px;
+    margin-top: 10px;
+}
+.number3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color:#FFFFFF;
+}
+.number4{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  color:#FFFFFF;
+  margin-top: -20px;
+}
+.carousel-control-prev{
+  margin-left: 0px;
+}
+.carousel-control-next{
+  margin-right: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .topnav {
+    gap: 0px;
+}
+ .menu_content{
+  display: none;
+ }
+ .images {
+  margin-left: 80px;
+}
+ .menu_bar {
+  width: 20px;
+  height: 20px;
+  margin-left: 290px;
+  margin-top: 12px;
+}
+ .craving_para{
+  text-align: justify;
+  letter-spacing: normal;
+  width: 80%;
+ }
+.craving_head {
+  font-size: 100px;
+  font-weight: 700;
+}
+.above_line {
+  width: 400px;
+  margin-left: 30px;
+}
+.about_text{
+ font-size: 18px;
+ margin-left: 30px;
+ letter-spacing: 0.2px;
+}
+.dough {
+  width: 250px;
+  height: 240px;
+}
+
+.menu_line {
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu_text {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  }
+
+.menu-head {
+  margin-left: 50px;
+  width: 100%;
+  font-size: 35px;
+}
+.menu-para {
+  width:100%;
+  margin-left: 50px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+.menu-list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.pizza-img {
+  width: 100%;
+}
+.carsimg {
+  width: 70%;
+  height: 400px;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+.carousel-control-next{
+  margin-right: 10px;
+}
+.gallary{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.gallary-img1 {
+  width: 100%;
+  height: 250px;
+}
+.gallary-img2 {
+  width: 90%;
+  height: 77px;
+}
+.gallary-img3 {
+  width: 100%;
+  height: 120px;
+}
+.map{
+  width: 350px;
+  height: 250px;
+}
+.location-info{
+  font-size: 17px;
+}
+.Find-location{
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 30px;
+}
+.location {
+  width: 30px;
+  height: 30px;
+}
+.Address {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: 7px;
+}
+.phone {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+.number1 {
+  font-size: 9px;
+  font-weight: 200;
+  margin-top: -10px;
+  margin-left: 0px;
+}
+.number2 {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: -40px;
+  margin-left: 0px;
+}
+.email {
+  width: 30px;
+  height: 34px;
+}
+.phone1{
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+}
+.footer{
+  gap: 270px;
+}
+.group-img {
+  width: 150px;
+  height: 110px;
+  margin-left: 30px;
+}
+.number3 {
+  font-size: 9px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+.number4 {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: -40px;
+}
+.email-id{
+  font-size: 17px;
+ margin-top: 0px;
+}
+
+.img_menubar{
+  display: block;
+}
+
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  
+  .topnav {
+    gap: 0px;
+}
+ .menu_content{
+  display: none;
+ }
+ .images {
+  display: none;
+}
+.pizz{
+  margin-top: 0px;
+}
+ .menu_bar {
+  width: 20px;
+  height: 15px;
+  margin-left: 80px;
+}
+ .craving_para{
+  margin-left: 30px;
+  letter-spacing: normal;
+  width: 80%;
+ }
+.craving_head {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.line {
+  width: 231px;
+  height: 9px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.about{
+  font-size: 40px;
+}
+.about_line {
+  width: 300px;
+}
+.above_line {
+  width: 340px;
+  margin-left: 30px;
+}
+.about_info {
+  display: flex;
+  flex-direction: column;
+}
+.about_text{
+ width: 85%;
+ margin-left: 30px;
+ text-align: justify;
+}
+.dough {
+  margin-left: 30px;
+  width: 83%;
+  height: 280px;
+  margin-top: 30px;
+}
+.me_nu{
+  font-size: 40px;
+}
+
+.menu_line {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-list1 {
+  display: flex;
+  flex-direction: column;
+}
+.menu_text {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  }
+
+.menu-head {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 35px;
+}
+.menu-para {
+  margin-left: 10px;
+  font-size: 17px;
+  width: 100%;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+.menu-list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.pizza-img {
+  width: 100%;
+}
+.carousal {
+  font-size: 40px;
+}
+.carousal-line{
+  width: 300px;
+}
+.carsimg {
+  width: 70%;
+  height: 300px;
+  margin-left:13%;
+  margin-top: 60px;
+}
+.carousel-control-next{
+  margin-right: 10px;
+}
+.gal{
+  font-size: 40px;
+}
+.gallary_line {
+  width: 300px;
+}
+.gallary{
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 3px;
+}
+.gallary-img1 {
+  width: 100%;
+  height: 220px;
+}
+.gallary-img2 {
+  width: 90%;
+  height: 67px;
+}
+.gallary-img3 {
+  width: 95%;
+  height: 105px;
+}
+.find_us {
+  font-size: 40px;
+}
+.find_line {
+  width: 300px;
+}
+.map{
+  width: 100%;
+  height: 250px;
+}
+.location-info{
+  font-size: 18px;
+  width: 100%;
+}
+.Find-location{
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  width: 30px;
+  height: 30px;
+}
+.Address {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: 7px;
+}
+.phone {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+.number1 {
+  font-size: 9px;
+  font-weight: 200;
+  margin-top: -10px;
+  margin-left: 0px;
+}
+.number2 {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: -40px;
+  margin-left: 0px;
+}
+.email {
+  width: 30px;
+  height: 34px;
+}
+.phone1{
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+}
+.footer{
+  gap: 20px;
+}
+.group-img {
+  width: 150px;
+  height: 110px;
+  margin-left: 30px;
+}
+.number3 {
+  font-size: 9px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+.number4 {
+  font-size: 10px;
+  font-weight: 200;
+  margin-top: -40px;
+}
+.email-id{
+  font-size: 12px;
+ margin-top: 5px;
+}
+.last-mail {
+  gap: 10px;
+}
+
+.img_menubar{
+  display: block;
+}
+}
+
+  
+  
+  
