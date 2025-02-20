@@ -6,13 +6,14 @@
 .topnav{
   display: flex;
   background-color: black;
-  gap: 100px;
+  justify-content: space-between;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .pizz{
   font-size: 18px;
   font-weight: 700px;
   color: white;
-  width: 200px;
   text-decoration: none;
   text-align: center;
   margin-top: 10px;
@@ -22,54 +23,51 @@
   color: white;
   font-size: 15px;
 }
+.menu_content{
+  display: flex;
+  gap:35px;
+  align-items: center;
+}
 .img_menubar{
   display: none;
 }
-.menu_text{
-  color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 40px;
-  font-size: 25px;
-  line-height: 33px;
-}
-.menu_content{
-  display: flex;
-  gap:32px;
-  align-items: center;
-}
+
 
 .craving{
   background-image: url(images/pizza1\ 1.png);
-  Height:1017px;
   background-repeat: no-repeat;
+  position: relative;
   width: 100%;
-}
+  height: 100%;
+  }
+  .crav-sec{
+    background: rgba(0, 0, 0, 0.5);
+  }
 .craving_head{
-  font-size: 101px;
-  width: 90%;
-  height: 215px;
-  padding-top: 240px;
-  padding-left: 50px;
+  font-size: 102px;
+  width: 70%;
+  padding-top: 10%;
   color: #FFFFFF;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding-left: 7%;
 }
 .craving_para{
-  width: 50%;
+  width: 44%;
   height: 325px;
-  margin-left: 50px;
-  padding-top: 30px;
-  font-size: 25px;
+  padding-top:4%;
+  font-size: 23px;
   color: #FFFFFF;
+  margin-left: 7%;
 }
 
 .line{
-  width: 586px;
+  width: 44%;
   height: 13px;
   background-color: red;
-  margin-left: 50px;
   border: none;
-  margin-top: 280px;
+  margin-top: 4%;
+  margin-left: 7%;
 }
 .full{
   background-color: black;
@@ -80,139 +78,118 @@
   font-size: 60px;
   font-weight: 400;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 5%;
 }
 .about_line{
-  width: 526px;
+  width: 35%;
   height: 10px;
   background-color:#B62828;
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
+.about_text_info{
+  margin-left: 7%;
+  margin-right: 7%;
+}
 
 .above_line{
-  width: 50%;
+  width: 48%;
   height: 4px;
-  margin-left: 100px;
   background-color: #F24C4C;
   border: none;
-  margin-top: 100px;
+  margin-top: 15%;
 }
 .about_text{
   color: #FFFFFF;
   font-size: 23px;
   width: 57%;
-  margin-left: 100px;
   margin-top: 10px;
 }
 .dough{
-  width: 300px;
-  height: 250px;
-  margin-left: 20px;
-  margin-top: -20px;
+  width: 37%;
+  margin-top: -25px;
 }
 
 .about_info{
   display: flex;
+  justify-content: space-between;
+}
+
+.menu_text{
+  color: white;
+  margin-top: 40px;
+  font-size: 25px;
+  line-height: 33px;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: justify;
+  margin-bottom: 8%;
 }
 
 .pizza{
   text-decoration: none;
   color: white;
 }
-.me_nu{
-  font-size: 60px;
-  color: #FFFFFF;
-  margin-top: 50px;
-  text-align: center;
-}
-.menu_line{
-  width: 474px;
-  height: 9px;
-  margin-left: 31%;
-  background-color: #B62828;
-  margin-top: 20px;
-  border: none;
-}
+
 .menu-list1{
   display: flex;
+  gap: 20px;
 }
-.pizza-img{
-  width: 273.08px;
-  height: 200px;
-  gap: 0px;
+.menu-list2{
+  display: flex;
+  gap: 20px;
+}
+
+.pizza-img1{
+  width: 50%;
   border-style: solid;
   border-radius: 10px;
-  opacity: 0px;
 }
+
 .menu-head{
-  margin-left: 20px;
   font-size: 25px;
   color: #F2C94C;
   font-family: ruda;
-  margin-right: 30px;
   margin-top: 10px;
 }
 .menu-para{
   color: white;
-  width: 150px;
-  margin-left: 20px;
   font-size: 13px;
   line-height: 20px;
-  margin-right: 30px;
   margin-top:10px;
 }
 
 .menu-list{
   display: flex;
-  gap: 70px;
-  margin-left: 100px;
+  justify-content: space-between;
   margin-top: 50px;
-  margin-right: 100px;
+  gap: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
-.carousal{
-  font-size: 60px;
-  color: #FFFFFF;
-  margin-top: 70px;
-  text-align: center;
-}
-.carousal-line{
-  width: 474px;
-  height: 9px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #B62828;
-  border: none;
-  margin-top: 10px;
-}
+
+
 .carsimg{
- width: 81%;
- height: 450px;
- margin-top: 80px;
- margin-left: 120px;
+ width: 84%;
+ height: 500px;
+ margin-top: 5%;
+ margin-left: 7%;
+ margin-right: 7%;
 }
-.gal{
-  font-size: 60px;
-  color: #FFFFFF;
-  margin-top: 80px;
-  text-align: center;
+.carousel-control-prev{
+  margin-left: -20px;
 }
-.gallary_line{
-  width: 474px;
-  height: 9px;
-  background-color: #B62828;
-  border: none;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.carousel-control-next{
+  margin-right: 0px;
 }
+
 .gallary{
   display: flex;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  gap: 10px;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  gap: 15px;
 }
 .gallery-2{
  display: flex;
@@ -222,17 +199,13 @@
 .gallary-img1{
   width: 100%;
   height: 410px;
-  gap: 0px;
   border-radius: 10px;
   opacity: 0px;
 }
 .gallary-img2{
-  width: 90%;
+  width: 100%;
   height: 130px;
-  gap: 0px;
   border-radius: 10px;
-  opacity: 0px;
-  margin-left: 10px;
 }
 .gallary-3{
   display: flex;
@@ -244,29 +217,15 @@
   height: 199px;
   border-radius:10px;
   opacity: 0px;
-  margin-left: 10px;
 }
-.find_us{
-  font-size: 60px;
-  color: #FFFFFF;
-  margin-top: 80px;
-  text-align: center;
-}
-.find_line{
-  width: 499px;
-  height: 9px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #B62828;
-  border: none;
-  margin-top: 10px;
-}
+
 .Find-location{
   display: flex;
-  gap: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 40px;
+  justify-content: space-between;
+  gap: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
 }
 .location-info{
   font-size: 20px;
@@ -274,8 +233,7 @@
   color: #FFFFFF;
 }
 .map{
-  width: 500px;
-  height: 300px;
+  width: 100%;
   border: 1px solid #000000
 }
 .location-Adrs{
@@ -319,11 +277,14 @@
   width: 55px;
   height: 53px;
   margin-top: 20px;
+  margin-left: 10px;
 }
 .footer{
   display: flex;
-  margin-top: 100px;
-  gap: 500px;
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: space-between;
 }
 .group{
   margin-bottom: 50px;
@@ -331,7 +292,6 @@
 .group-img{
   width: 202.79px;
   height: 148.96px;
-  margin-left: 70px;
 }
 .last-mail{
   display: flex;
@@ -372,108 +332,75 @@
   color:#FFFFFF;
   margin-top: -20px;
 }
-.carousel-control-prev{
-  margin-left: 0px;
-}
-.carousel-control-next{
-  margin-right: 0px;
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .topnav {
-    gap: 0px;
-}
+  
  .menu_content{
   display: none;
  }
  .images {
-  margin-left: 80px;
+  display: none;
 }
+
  .menu_bar {
   width: 20px;
   height: 20px;
-  margin-left: 290px;
   margin-top: 12px;
 }
- .craving_para{
-  text-align: justify;
-  letter-spacing: normal;
-  width: 80%;
- }
 .craving_head {
-  font-size: 100px;
-  font-weight: 700;
+  font-size: 69px;
 }
-.above_line {
-  width: 400px;
-  margin-left: 30px;
+.craving_para {
+  width: 45%;
+  font-size: 18px;
 }
-.about_text{
- font-size: 18px;
- margin-left: 30px;
- letter-spacing: 0.2px;
+.about {
+  font-size: 40px;
+}
+.about_info {
+  gap: 30px;
+}
+.about_text {
+  font-size: 17px;
 }
 .dough {
-  width: 250px;
-  height: 240px;
+  width: 50%;
+}
+.above_line {
+  width: 38%;
 }
 
-.menu_line {
-  margin-left: auto;
-  margin-right: auto;
-}
 .menu_text {
-  margin-left: 30px;
-  margin-right: 30px;
   font-size: 20px;
-  line-height: 25px;
-  text-align: justify;
-  letter-spacing: 0.2px;
+  line-height: 28px;
   }
 
 .menu-head {
-  margin-left: 50px;
-  width: 100%;
   font-size: 35px;
 }
 .menu-para {
-  width:100%;
-  margin-left: 50px;
   font-size: 17px;
   line-height: 30px;
-  letter-spacing: 0.3px;
 }
 .menu-list{
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
-}
-.pizza-img {
-  width: 100%;
 }
 .carsimg {
-  width: 70%;
-  height: 400px;
-  margin-left: 130px;
-  margin-top: 60px;
+  width: 83%;
 }
-.carousel-control-next{
-  margin-right: 10px;
-}
-.gallary{
-  margin-left: 30px;
-  margin-right: 30px;
-}
+
 .gallary-img1 {
   width: 100%;
   height: 250px;
 }
 .gallary-img2 {
-  width: 90%;
+  width: 98%;
   height: 77px;
 }
 .gallary-img3 {
-  width: 100%;
+  width: 95%;
   height: 120px;
 }
 .map{
@@ -484,9 +411,7 @@
   font-size: 17px;
 }
 .Find-location{
-  margin-left: 30px;
-  margin-right: 30px;
-  gap: 30px;
+  gap: 2%
 }
 .location {
   width: 30px;
@@ -523,13 +448,9 @@
   height: 30px;
   margin-top: 0px;
 }
-.footer{
-  gap: 270px;
-}
 .group-img {
   width: 150px;
   height: 110px;
-  margin-left: 30px;
 }
 .number3 {
   font-size: 9px;
@@ -552,11 +473,8 @@
 
 } 
 
-@media only screen and (min-width: 320px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   
-  .topnav {
-    gap: 0px;
-}
  .menu_content{
   display: none;
  }
@@ -572,147 +490,101 @@
   margin-left: 80px;
 }
  .craving_para{
-  margin-left: 30px;
-  letter-spacing: normal;
-  width: 80%;
+  font-size: 13px;
+  width: 70%;
+  margin-top: 10px;
  }
 .craving_head {
-  font-size: 40px;
-  font-weight: 700;
-  padding-top: 100px;
-  padding-left: 30px;
+  width: 90%;
+  font-size: 33px;
 }
 .line {
-  width: 231px;
-  height: 9px;
-  margin-left: 30px;
+  width: 65%;
+  height: 6px;
   margin-top: 30px;
 }
 
 .about{
-  font-size: 40px;
+  font-size: 25px;
 }
 .about_line {
-  width: 300px;
+ width: 50%;
+  height: 7px;
 }
 .above_line {
-  width: 340px;
-  margin-left: 30px;
+  width: 82%;
 }
 .about_info {
   display: flex;
   flex-direction: column;
 }
 .about_text{
- width: 85%;
- margin-left: 30px;
- text-align: justify;
+ width: 100%;
+ font-size: 15px;
 }
 .dough {
-  margin-left: 30px;
-  width: 83%;
+  width: 100%;
   height: 280px;
   margin-top: 30px;
-}
-.me_nu{
-  font-size: 40px;
-}
-
-.menu_line {
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .menu-list1 {
   display: flex;
   flex-direction: column;
 }
+.menu-list2 {
+  display: flex;
+  flex-direction: column;
+}
 .menu_text {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-size: 20px;
-  line-height: 25px;
-  text-align: justify;
-  letter-spacing: 0.2px;
-  }
-
+  font-size: 15px;
+  line-height: 23px;
+  margin-top: 30px;
+}
 .menu-head {
-  margin-top: 20px;
-  margin-left: 10px;
-  width: 100%;
-  font-size: 35px;
+  font-size: 25px;
 }
 .menu-para {
-  margin-left: 10px;
-  font-size: 17px;
-  width: 100%;
-  line-height: 30px;
+  font-size: 14.5px;
+  line-height: 25px;
   letter-spacing: 0.3px;
 }
 .menu-list{
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
 }
-.pizza-img {
+.pizza-img1 {
   width: 100%;
 }
-.carousal {
-  font-size: 40px;
-}
-.carousal-line{
-  width: 300px;
-}
+
 .carsimg {
-  width: 70%;
-  height: 300px;
-  margin-left:13%;
-  margin-top: 60px;
+  height: 200px;
+  margin-top: 10px;
 }
-.carousel-control-next{
-  margin-right: 10px;
-}
-.gal{
-  font-size: 40px;
-}
-.gallary_line {
-  width: 300px;
+.carousel-control-prev{
+  margin-left: -2px;
 }
 .gallary{
-  margin-left: 30px;
-  margin-right: 30px;
-  gap: 3px;
+  gap: 7px;
 }
 .gallary-img1 {
   width: 100%;
-  height: 220px;
+  height: 200px;
 }
 .gallary-img2 {
-  width: 90%;
-  height: 67px;
+  width: 100%;
+  height: 60px;
 }
 .gallary-img3 {
-  width: 95%;
-  height: 105px;
-}
-.find_us {
-  font-size: 40px;
-}
-.find_line {
-  width: 300px;
-}
-.map{
   width: 100%;
-  height: 250px;
+  height: 95px;
 }
+
 .location-info{
-  font-size: 18px;
-  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
 }
 .Find-location{
-  margin-left: 30px;
-  margin-right: 30px;
-  gap: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -726,8 +598,8 @@
   margin-top: 7px;
 }
 .phone {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin-top: 4px;
 }
 .number1 {
@@ -751,13 +623,10 @@
   height: 30px;
   margin-top: 0px;
 }
-.footer{
-  gap: 20px;
-}
+
 .group-img {
-  width: 150px;
-  height: 110px;
-  margin-left: 30px;
+  width: 100px;
+  height: 90px;
 }
 .number3 {
   font-size: 9px;
@@ -775,6 +644,9 @@
 }
 .last-mail {
   gap: 10px;
+}
+.last-phone {
+ margin-top: -20px;
 }
 
 .img_menubar{
